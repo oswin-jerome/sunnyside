@@ -1,31 +1,31 @@
 import Head from "next/head";
 // import Img from 'next/Img'
 // import styles from '../styles/Home.module.css'
-// // import halfOrange from "./../assets/desktop/Img-header.png"
-// import ImgTrans from "./../assets/desktop/Img-transform.jpg"
-// import Pale from "./../assets/desktop/Img-stand-out.jpg"
-// import ImgPho from "./../assets/desktop/i2.png"
-// import imggd from "./../assets/desktop/i1.png"
-// import testss from "./../assets/icon-arrow-down.svg"
+// // import halfOrange from "assets/desktop/Img-header.png"
+// import ImgTrans from "assets/desktop/Img-transform.jpg"
+// import Pale from "assets/desktop/Img-stand-out.jpg"
+// import ImgPho from "assets/desktop/i2.png"
+// import imggd from "assets/desktop/i1.png"
+// import testss from "assets/icon-arrow-down.svg"
 // import Img from 'next-optimized-images';
 export default function Home() {
   var testimonial = [
     {
-      pic: "./../assets/image-emily.jpg",
+      pic: "assets/image-emily.jpg",
       name: "Emily R.",
       title: "Marketing Director",
       description:
         "We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
     },
     {
-      pic: "./../assets/image-thomas.jpg",
+      pic: "assets/image-thomas.jpg",
       name: "Thomas S.",
       title: "Chief Operating Officer",
       description:
         "Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.",
     },
     {
-      pic: "./../assets/image-jennie.jpg",
+      pic: "assets/image-jennie.jpg",
       name: "Jennie F.",
       title: "Business Owner",
       description:
@@ -54,7 +54,7 @@ export default function Home() {
           We are creatives
         </h1>
         <img
-          src="./../assets/icon-arrow-down.svg"
+          src="assets/icon-arrow-down.svg"
           alt=""
           className="absolute z-40  left-1/2 transform -translate-x-1/2 top-80 bottom-60"
         />
